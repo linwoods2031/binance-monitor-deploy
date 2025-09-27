@@ -1,0 +1,30 @@
+{
+  "monitor_settings": {
+        "alert_threshold": 0.07,
+        "monitor_interval": 30,
+        "time_window": 300,
+        "max_symbols": 500
+    },
+  "api_settings": {
+    "base_url": "https://fapi.binance.com",
+    "timeout": 30,
+    "api_key": "PE40xWhDdcddfDVRY3g7fOcFL8ZDJ9IbLJToaCPUoG5qRBSztdpFQJiFA3h0LNWI",
+    "secret_key": "PE40xWhDdcddfDVRY3g7fOcFL8ZDJ9IbLJToaCPUoG5qRBSztdpFQJiFA3h0LNWI"
+  },
+  "alert_settings": {
+    "console_output": false,
+    "log_file": "binance_monitor.log",
+    "email_alert": true,
+    "smtp_server": "smtp.qq.com",
+    "smtp_port": 587,
+    "sender_email": "1394182305@qq.com",
+    "sender_password": "pionngoxwzjqiiaa",
+    "receiver_emails": ["13801092039@139.com"]
+  },
+  "symbol_filters": {
+        "market_type": "futures",
+        "quote_asset": "USDT",
+        "status": "TRADING",
+        "exclude_symbols": []
+    }
+}
